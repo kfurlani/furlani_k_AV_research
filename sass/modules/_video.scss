@@ -1,0 +1,51 @@
+.video-section {
+    text-align: center;
+  }
+  
+  .video-wrapper {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .video-wrapper video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .caption-toggle {
+    background-color: #cd2026;
+    border: 1px solid #cd2026;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-bottom: 3em;
+  }
+  
+  .caption-toggle:hover {
+    background-color: #cd2026;
+    color: #fff;
+  }
+  
+  .video-container {
+    position: relative;
+  }
+  
+  .controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #playPauseBtn {
+    color: #cd2026;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
